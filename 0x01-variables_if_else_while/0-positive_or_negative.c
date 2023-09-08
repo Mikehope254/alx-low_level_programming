@@ -3,8 +3,8 @@
 #include <stdio.h>
 
 /*
- * main - prints if n is positive, zero or negative 
- * Return: Always (Success)
+ * main - Determines ifa number  n is positive, zero or negative 
+ * Return: Always 0 (Success)
  *
 */
 
@@ -17,15 +17,15 @@ int main(void)
 	
 	if (n>0)
 	{
-		prinf("%d is positive",n);
+		prinf("%d is positive\n",n);
 	}
 	else if (n==0)
 	{
-		printf("%d is zero",n);
+		printf("%d is zero\n",n);
 	}
 	else
 	{
-		prinf ("%d is negative",n);
+		prinf ("%d is negative\n",n);
 	}
 	return (0);
 }
